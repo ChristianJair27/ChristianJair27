@@ -33,4 +33,14 @@ The template demos use fictional businesses; Lighthouse mobile scores of 96–10
 
 ---
 
+#### Astrophysics (Kister Space)
+
+With public archives (Gaia, TESS, unWISE, MAST) I search for planets and planetary debris around white dwarfs and turn the data into videos on **[Kister Space](https://www.youtube.com/@KisterSpace)**. Tools from that work, released as they mature:
+
+| Project | What it is | Stack |
+|---|---|---|
+| [wdclock](https://github.com/ChristianJair27/wdclock) | White-dwarf cooling ages and habitable-zone windows from the Montreal evolutionary sequences, run on the 16,676 Gaia EDR3 white dwarfs within 100 pc; validated on Sirius B and 40 Eri B | Python, NumPy, pandas, matplotlib |
+
+---
+
 **Hire me:** [revolution505.com](https://revolution505.com) · [Fiverr](https://www.fiverr.com/christianjai702)
