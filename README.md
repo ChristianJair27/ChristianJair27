@@ -40,6 +40,7 @@ With public archives (Gaia, TESS, unWISE, MAST) I search for planets and planeta
 | Project | What it is | Stack |
 |---|---|---|
 | [wdclock](https://github.com/ChristianJair27/wdclock) | White-dwarf cooling ages and habitable-zone windows from the Montreal evolutionary sequences, run on the 16,676 Gaia EDR3 white dwarfs within 100 pc; validated on Sirius B and 40 Eri B | Python, NumPy, pandas, matplotlib |
+| [planetfate](https://github.com/ChristianJair27/planetfate) | Which planets survive the death of their star: initial-final mass relation, engulfment limits, adiabatic orbit expansion and REBOUND instability runs, applied to the 6,464 planets of the NASA Exoplanet Archive | Python, NumPy, pandas, REBOUND |
 
 ---
 
