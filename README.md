@@ -35,7 +35,7 @@ The template demos use fictional businesses; Lighthouse mobile scores of 96–10
 
 #### Astrophysics (Kister Space)
 
-With public archives (Gaia, TESS, unWISE, MAST) and my astrophysics master's training (UNIR, thesis on white dwarfs) I search for planets and planetary debris around white dwarfs and turn the data into videos on **[Kister Space](https://www.youtube.com/@KisterSpace)**. Tools from that work, released as they mature:
+With public archives (Gaia, TESS, unWISE, MAST) I search for planets and planetary debris around white dwarfs and turn the data into videos on **[Kister Space](https://www.youtube.com/@KisterSpace)**. Tools from that work, released as they mature:
 
 | Project | What it is | Stack |
 |---|---|---|
