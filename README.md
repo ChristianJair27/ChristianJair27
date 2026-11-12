@@ -48,6 +48,7 @@ With public archives (Gaia, TESS, unWISE, MAST) I search for planets and planeta
 | Project | What it is | Result |
 |---|---|---|
 | [exoplanet-cnn](https://github.com/ChristianJair27/exoplanet-cnn) | AstroNet (Shallue & Vanderburg 2018) reproduced from raw Kepler light curves, extended with ExoMiner-style odd/even, secondary-eclipse and DV views | Test AUC 0.995 on held-out stars; 51 of 65 planets recovered at 99 % precision vs 10 for AstroNet |
+| [mars-terrain-seg](https://github.com/ChristianJair27/mars-terrain-seg) | Curiosity rover terrain segmentation on NASA JPL's AI4Mars with SegFormer-B2, calibration, uncertainty maps and a drive-risk demo | 98.3 % pixel accuracy on the strictest expert test set; an honest out-of-domain test on Perseverance |
 | [telemetry-anomaly](https://github.com/ChristianJair27/telemetry-anomaly) | Spacecraft anomaly detection on NASA SMAP and Curiosity telemetry: Hundman et al. 2018 reproduced, with honest scoring, trivial baselines and an LSTM vs TCN comparison | Paper reproduced (P 0.869, R 0.819); shows how point-adjusted F1 makes a random detector score 0.959 |
 
 ---
