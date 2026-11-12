@@ -35,12 +35,20 @@ The template demos use fictional businesses; Lighthouse mobile scores of 96–10
 
 #### Astrophysics (Kister Space)
 
-With public archives (Gaia, TESS, unWISE, MAST) I search for planets and planetary debris around white dwarfs and turn the data into videos on **[Kister Space](https://www.youtube.com/@KisterSpace)**. Tools from that work, released as they mature:
+With public archives (Gaia, TESS, unWISE, MAST) and my astrophysics master's training (UNIR, thesis on white dwarfs) I search for planets and planetary debris around white dwarfs and turn the data into videos on **[Kister Space](https://www.youtube.com/@KisterSpace)**. Tools from that work, released as they mature:
 
 | Project | What it is | Stack |
 |---|---|---|
 | [wdclock](https://github.com/ChristianJair27/wdclock) | White-dwarf cooling ages and habitable-zone windows from the Montreal evolutionary sequences, run on the 16,676 Gaia EDR3 white dwarfs within 100 pc; validated on Sirius B and 40 Eri B | Python, NumPy, pandas, matplotlib |
 | [planetfate](https://github.com/ChristianJair27/planetfate) | Which planets survive the death of their star: initial-final mass relation, engulfment limits, adiabatic orbit expansion and REBOUND instability runs, applied to the 6,464 planets of the NASA Exoplanet Archive | Python, NumPy, pandas, REBOUND |
+| [white-dwarf-planet-search](https://github.com/ChristianJair27/white-dwarf-planet-search) · [site](https://christianjair27.github.io/white-dwarf-planet-search/) | Open research notebook of the search: methods, reports (negative results and corrections included), per-star vetting records | Gaia, TESS, BLS |
+
+#### Machine learning on NASA data
+
+| Project | What it is | Result |
+|---|---|---|
+| [exoplanet-cnn](https://github.com/ChristianJair27/exoplanet-cnn) | AstroNet (Shallue & Vanderburg 2018) reproduced from raw Kepler light curves, extended with ExoMiner-style odd/even, secondary-eclipse and DV views | Test AUC 0.995 on held-out stars; 51 of 65 planets recovered at 99 % precision vs 10 for AstroNet |
+| [telemetry-anomaly](https://github.com/ChristianJair27/telemetry-anomaly) | Spacecraft anomaly detection on NASA SMAP and Curiosity telemetry: Hundman et al. 2018 reproduced, with honest scoring, trivial baselines and an LSTM vs TCN comparison | Paper reproduced (P 0.869, R 0.819); shows how point-adjusted F1 makes a random detector score 0.959 |
 
 ---
 
